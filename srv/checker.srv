@@ -1,0 +1,7 @@
+float64 x
+float64 y
+sensor_msgs/LaserScan obstacle_data
+---
+bool task_completed
+float64[] obstacle_position
+float64[] destination
