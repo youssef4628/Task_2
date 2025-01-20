@@ -1,0 +1,4 @@
+<launch>
+    <node name="Client_interface" pkg="rover_control_system" type="coordinate_robot_client.py" output="screen"/>
+    <node name="server" pkg="rover_control_system" type="myserver.py" output="screen"/>
+</launch>
